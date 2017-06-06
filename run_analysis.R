@@ -109,6 +109,6 @@ if (!file.exists("tidy_data")) {
     dir.create("tidy_data")
 }
 
-write_csv(har, "tidy_data/har.csv")
-write_csv(har_means, "tidy_data/har_means.csv")
+write.table(har, "tidy_data/har.txt", row.names = FALSE)
+write.table(har_means, "tidy_data/har_means.txt", row.names = FALSE)
 
