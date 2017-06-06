@@ -12,8 +12,8 @@ The study that produced the data in this repository aimed at using data from a s
 
 This repository contains the following files and folders:
 
-1. `raw_data`: a folder with the Human Activity Recognition Using Smartphones (HAR) data downloaded from the UCI Machine Learning Repository.
-2. `tidy_data`: a folder containing `har.csv` and `har_means.csv` which tabulate the mean and standard deviation of each "feature" reported in the raw data.  
+1. `raw_data/`: a folder with the Human Activity Recognition Using Smartphones (HAR) data downloaded from the UCI Machine Learning Repository.
+2. `tidy_data/`: a folder containing `har.csv` and `har_means.csv` which tabulate the mean and standard deviation of each "feature" reported in the raw data.  
 3. `CodeBook.md`: a markdown document describing the meaning of each column in the `har.csv` and `har_means.csv` files
 4. `run_analysis.R`: an R script which was used to generated the files in the tidy_data folder using files in the raw_data folder.
 

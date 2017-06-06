@@ -9,7 +9,7 @@ har_means.csv
 
 The data in these tables were derived from a study performed by [Davide Anguita et al.](https://www.icephd.org/sites/default/files/IWAAL2012.pdf) The following sections are modified from the original authors' description of the study.
 
-## Study Design
+## Study Design and Data Generation
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities while wearing a Samsung Galaxy S II smartphone:
 
@@ -34,11 +34,11 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 ## Data Description
 
-Each row in the `horus.csv` file is a feature vector as defined above.
+Each row in `har.csv` is a feature vector as defined above.
 
-Each row in the `horus_means.csv` file is the average of all measurements of a specific feature from a specific subject performing a specific activity.
+Each row in `har_means.csv` is the average of all measurements of a specific feature from a specific subject performing a specific activity.
 
-Measurements are normalized and bounded within `[-1,1]`.
+Measurements are normalized and bounded within [-1,1].
 
 '.X/Y/Z' is used to denote 3-axial signals in the X, Y and Z directions.
 
